@@ -1,0 +1,92 @@
+/* HTML */
+html {
+    font-size: 16px;
+}
+
+/* BODY */
+body {
+    height: 2500px;
+    font-size: 20px;
+    font-family: 'Hi Melody', cursive;
+    background-color: #161413;
+    color: #edeeef;
+}
+
+/* HEADER */
+header {
+   /* width: 1280px; */
+    height: 280px;
+    background-image: url("../images/djordje.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+/* NAVIGATION BAR */
+nav {
+    height: 40px;
+    color: #edeeef;
+    display: flex;
+}
+
+na div {
+    flex-grow: 1;
+}
+
+nav ul li {
+    font-size: 25px;
+    color: #edeeef;
+    float: left;
+    margin: 5px 60px;
+    list-style-type: none;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #edeeef;
+}
+
+nav ul a: active {
+    color: yellow;    
+}
+
+/*DIV PAINTING*/
+#Painting {
+    width: 500px;
+}
+
+.Painting h1, h2 {
+    width: 500px;
+    margin: 60px 0 20px 0;
+    font-size: 35px;
+}
+
+.Painting p {
+    width: 500px;
+    float: left;
+}
+
+/* SIDE */
+#sidebar {
+    width: 500px;
+    float: right;
+}
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
