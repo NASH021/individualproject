@@ -1,89 +1,199 @@
-/* HTML */
-html {
-    font-size: 16px;
-}
+/* BODY STARTS HERE*/
 
-/* BODY */
 body {
-    height: 2500px;
-    font-size: 20px;
-    font-family: 'Hi Melody', cursive;
-    background-color: #161413;
+    /*height: 2500px;*/
+    /*width: 1000px;*/
+    /*text-align: center;*/
+    font-size: 35px;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background-color: #111;
     color: #edeeef;
 }
 
-/* HEADER */
-header {
-   /* width: 1280px; */
-    height: 280px;
-    background-image: url("../images/djordje.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    
+h1, h2 {
+    font-size: 40px;
 }
 
-/* NAVIGATION BAR */
-nav {
-    height: 40px;
-    color: #edeeef;
+
+/* HEADER STARTS HERE*/
+
+#header {
     display: flex;
+    justify-content: center;
+    /*background-size: cover;*/
+}
+    .mainphoto {
+        width: center;
+        display: flex;
 }
 
-na div {
+    .djordje {
+        width: center;
+        display: flex;
+}
+
+
+
+/* NAVIGATION STARTS HERE */
+
+nav {
+    width: 80vw;
+    height: 60px;
+    margin: auto;
+    background-color: transparent;
+    font-family: 'Pacifico', cursive;
+}
+
+nav div {
     flex-grow: 1;
 }
 
-nav ul li {
-    font-size: 25px;
-    color: #edeeef;
-    float: left;
-    margin: 5px 60px;
+nav ul {
+    flex-grow: 2;
+    display: flex;
+    justify-content: center;
     list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    flex-grow: 1;
+   /*width: 500px;*/
 }
 
 nav ul a {
     text-decoration: none;
-    color: #edeeef;
+    font-weight: bold;
+    color: #ff9f7f;
 }
 
-nav ul a: active {
-    color: yellow;    
-}
+/* NAVIGATION BAR */
+/*nav {*/
+/*    height: 50px;*/
+/*    display: flex;*/
+/*    margin-bottom: 40px;*/
+/*    color: #edeeef;*/
+    
+/*}*/
+
+/*nav div {*/
+/*    flex-grow: 1;*/
+/*}*/
+
+/*nav ul li {*/
+/*    font-size: 35px;*/
+/*    text-align: center;*/
+/*    color: #edeeef;*/
+/*    float: left;*/
+/*    margin: 5px 60px;*/
+/*    list-style-type: none;*/
+/*}*/
+
+/*nav ul a {*/
+/*    text-decoration: none;*/
+/*    color: #edeeef;*/
+/*}*/
+
+/*nav ul a: active {*/
+/*    color: yellow;    */
+/*}*/
+
+
+
 
 /*DIV PAINTING*/
-#Painting {
-    width: 500px;
+#painting {
+    display: flex;
 }
 
-.Painting h1, h2 {
-    width: 500px;
-    margin: 60px 0 20px 0;
-    font-size: 35px;
+.maincontent {
+    flex-grow: 2;
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+    
 }
 
-.Painting p {
-    width: 500px;
-    float: left;
+.sidebar {
+    flex-grow: 1;
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+    
 }
+
+h1, h2 {
+    color: #ff9f7f;
+}
+
+    /*.maincontent {*/
+    /*    float: left*/
+    /*    height 600px;*/
+    /*    text-align: center;*/
+    /*}*/
+    
+    /*.sidebar {*/
+    /*    float: right*/
+    /*    height 600px;*/
+    /*    text-align: center;*/
+    /*}*/
+
+/*#Painting {*/
+/*    width: 450px;*/
+/*    float: left;*/
+/*    padding-left: 20px;*/
+/*}*/
+
+/*.Painting h1, h2 {*/
+/*    width: 500px;*/
+/*    margin: 60px 0 20px 0;*/
+/*}*/
+
+/*.Painting p {*/
+/*    width: 450px;*/
+/*    float: left;*/
+/*}*/
 
 /* SIDE */
-#sidebar {
-    width: 500px;
-    float: right;
+/*#sidebar {*/
+/*    width: 450px;*/
+/*    float: right;*/
+/*}*/
+
+
+
+/*FOOTER STARTS HERE*/
+
+footer {
+    height: 150px;
+    border-top: 5px white;
+    padding-top: 40px;
+    text-align: center;
+    background-color: #000000;
+    /*background-color:  #9cdd58;*/
+    
+}
+
+#social img {
+    height: 80px;
+    width: 80px;
+    padding-bottom: 10px;
 }
 
 
 
+/*BIOGRAPHY STARTS HERE*/
 
-
-
-
-
+#article {
+    font-size: 35px;
     
+}
     
-    
-    
+.details {
+    float: left
+    margin: 0 0 20px 20px;
+}
+
     
     
     
